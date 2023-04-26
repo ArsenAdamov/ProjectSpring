@@ -23,9 +23,6 @@ public class PersonDetails implements UserDetails {
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return Collections.singletonList(new SimpleGrantedAuthority(person.getRole()));
     }
-
-
-
     @Override
     public String getPassword() {
         return this.person.getPassword();

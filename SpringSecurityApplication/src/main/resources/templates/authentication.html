@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Аутентификация</title>
-    <link th:href="@{/css/index.css}" type="text/css" rel="stylesheet">
+    <link th:href="@{/css/authentificationAndRegistration.css}" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 <h3>Вход</h3>
@@ -17,7 +17,7 @@
     <input type="submit" value="Войти">
 </form>
 <div th:if="${param.error}" style="color: red">
-    Неправильный логин или пароль
+    Неправильный логин или пароль. Попробуйте еще раз или зарегистрируйтесь.
 </div>
 <a href="/registration">Зарегистрироваться</a>
 </body>

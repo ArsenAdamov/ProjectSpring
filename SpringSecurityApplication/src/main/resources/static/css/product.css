@@ -1,0 +1,251 @@
+/*Настройка поля поиска*/
+body{
+    font-family: Arial, sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 32px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+label[ id="ot"] {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+
+input[id="search"] {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+
+input[type="radio"] {
+    margin-right: 0.5em;
+}
+
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    width: 10em;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-left: 4em;
+}
+input[type="submit"]:hover{
+    background-color: #215b25;
+    transform: translate(0, 2px);
+}
+
+
+fieldset {
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-group input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+.form-group input:focus {
+    border-color: #000000;
+}
+
+ /*Изменение выбора категорий в кноки */
+
+.btn-group {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn-group label {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ccc;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.btn-group input[type="radio"]:checked + label {
+    background-color: #4cae50;
+    color: #fff;
+}
+
+.btn-group input[type="radio"] {
+    display: none;
+}
+
+hr {
+    width: 95%;
+    margin-top: 24px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*Результат поиска, сортировки и фильтрации*/
+ .productSearch, .productSearchNo {
+
+     align-items: center;
+     margin-bottom: 20px;
+     padding: 10px;
+     border-radius: 5px;
+     box-shadow: 0 0 5px #ccc;
+
+ }
+.productSearch{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 20px 10%;
+}
+.productSearchNo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.productSearch img, .productSearchNo img {
+    margin-right: 20px;
+    width: 170px;
+}
+
+.productSearch h4, .productSearchNo h4 {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.productSearch p, .productSearchNo p {
+    margin: 5px;
+}
+
+a.Green {
+    text-decoration: none;
+    color: black;
+}
+.productSearchNo a  {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.productSearchNo a:hover, a.Green:hover{
+    color: #4cad50 ;
+    transform: translate(0, 2px);
+}
+
+
+
+
+
+
+/*Доступные товары*/
+
+ .product-container {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+    min-width: 100px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product p {
+    margin: 5px;
+    text-align: center;
+}
+
+.productA {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+.productA:hover {
+    color: #4cad50 ;
+    transform: translate(0, 2px);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    width: 15em;
+    font-size: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgb(0 0 0 / 30%);
+    cursor: pointer;
+    margin: 0 3em 3em 3em;
+    border: 1px solid #0000004d;
+}
+h1{
+    text-align: center;
+}
+.add{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4cac50;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.add:hover {
+    background-color: #215b25;
+    color: #fff;
+    transform: translate(0, 2px);
+}

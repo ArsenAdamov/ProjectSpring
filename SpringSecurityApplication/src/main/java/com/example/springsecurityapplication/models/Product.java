@@ -10,7 +10,6 @@ import java.util.List;
 
 @Entity
 public class Product {
-
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,9 +19,11 @@ public class Product {
     @NotEmpty(message = "Наименование товара не может быть пустым")
     private String title;
 
+
     @Column(name = "description", nullable = false, columnDefinition = "text")
     @NotEmpty(message = "Описание товара не может быть пустым")
     private String description;
+
 
     @Column(name = "price", nullable = false)
     @Min(value = 1 , message = "Цена товара не может быть отрицательной или нулевой")
@@ -57,10 +58,12 @@ public class Product {
 
     @ManyToMany()
     @JoinTable(name = "product_cart", joinColumns = @JoinColumn(name = "product_id"),inverseJoinColumns = @JoinColumn(name = "person_id"))
+
     private List<Person> personList;
 
     @OneToMany(mappedBy = "product", fetch = FetchType.EAGER)
     private List<Order> orderList;
+
 
     public Product(String title, String description, float price, String warehouse, String seller, Category category, LocalDateTime dateTime, List<Image> imageList) {
         this.title = title;

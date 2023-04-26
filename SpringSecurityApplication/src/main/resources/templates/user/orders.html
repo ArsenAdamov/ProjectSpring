@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Заказы</title>
+    <link th:href="@{/css/orders.css}" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 <h3>Заказы</h3>
+<div class="button">
+    <form method="get" th:action="@{/person_account}">
+        <input type="submit" value="Личный кабинет"/>
+    </form>
+    <form method="get" th:action="@{/cart}">
+        <input type="submit" value="Корзина товаров"/>
+    </form>
+</div>
 <div th:each="order : ${orders}">
     <h3 th:text="'Заказ №' + ${order.getNumber()}"></h3>
-    <img th:src="'/img/' + ${order.getProduct().getImageList()[0].getFileName()}" width="300px">
+    <img th:src="'/img/' + ${order.getProduct().getImageList()[0].getFileName()}">
     <p th:text="'Наименование: ' + ${order.getProduct().getTitle()}">
     <p th:text="'Количество: ' + ${order.getCount()}">
     <p th:text="'Цена: ' + ${order.getPrice()}">
