@@ -48,20 +48,20 @@ h3{
     text-decoration: none;
 }
 .productA:hover {
-    color: #4cad50 ;
+    color: #18d7ab ;
     transform: translate(0, 2px);
 }
 .add{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4cac50;
+    background-color: #18d7ab;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
     font-size: 40px;
 }
 .add:hover {
-    background-color: #215b25;
+    background-color: #987b25;
     color: #fff;
     transform: translate(0, 2px);
 }
@@ -69,7 +69,7 @@ h3{
 .delete{
     display: inline-block;
     padding: 2px 12px;
-    background-color: #4cac50;
+    background-color: #18d7ab;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
@@ -92,7 +92,7 @@ h3{
 .button input{
     width: 15em;
     color: white;
-    background-color: #4cac50;
+    background-color: #18d7ab;
     border-radius: 10px;
     box-shadow: 0 0 2px rgb(0 0 0 / 30%);
     cursor: pointer;
@@ -101,5 +101,5 @@ h3{
 }
 .button input:hover{
     transform: translate(0, 2px);
-    background-color: #215b25;
+    background-color: #987b25;
 }

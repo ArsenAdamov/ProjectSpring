@@ -32,7 +32,7 @@
         <p th:text="'Роль пользователя: ' + ${person.getRole()}"></p>
     </div>
     <div>
-        <a th:href="@{/admin/persons/edit/{id}(id=${person.getId()})}"><button type="submit">Редактирование данных пользователя</button></a>
+        <a th:href="@{/admin/persons/edit/{id}(id=${person.getId()})}">Редактирование данных пользователя</a>
         <br>
         <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
 <!--        <a th:href="@{/admin/persons/delete/{id}(id=${person.getId()})}">Удаление пользователя</a>-->

@@ -69,7 +69,6 @@
     <p th:text="'Дата заказа: ' + ${#temporals.format(order.getDateTime(), 'dd-MMM-yyyy')}"></p>
     <p th:text="'Cтатус: ' + ${order.getStatus()}"></p>
 
-    <a class="add" th:href="@{/admin/order/delete/{id}(id=${order.getId()})}">Удалить заказ</a>
     <a class="add" th:href="@{/admin/order/edit/{id}(id=${order.getId()})}">Редактирование заказа</a>
 
   </div>

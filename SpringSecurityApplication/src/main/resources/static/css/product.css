@@ -40,7 +40,7 @@ input[type="radio"] {
 
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #18d7ab;
     border: none;
     color: white;
     padding: 0.5em;
@@ -52,7 +52,7 @@ input[type="submit"] {
     margin-left: 4em;
 }
 input[type="submit"]:hover{
-    background-color: #215b25;
+    background-color: #987b25;
     transform: translate(0, 2px);
 }
 
@@ -100,7 +100,7 @@ fieldset {
 
 
 .btn-group input[type="radio"]:checked + label {
-    background-color: #4cae50;
+    background-color: #18d7ab;
     color: #fff;
 }
 
@@ -162,7 +162,7 @@ a.Green {
 }
 
 .productSearchNo a:hover, a.Green:hover{
-    color: #4cad50 ;
+    color: #18d7ab ;
     transform: translate(0, 2px);
 }
 
@@ -216,7 +216,7 @@ a.Green {
     text-decoration: none;
 }
 .productA:hover {
-    color: #4cad50 ;
+    color: #18d7ab ;
     transform: translate(0, 2px);
 }
 
@@ -226,7 +226,7 @@ a.Green {
 }
 .button input{
     width: 15em;
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 10px;
     box-shadow: 0 0 2px rgb(0 0 0 / 30%);
     cursor: pointer;
@@ -239,13 +239,13 @@ h1{
 .add{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4cac50;
+    background-color: #18d7ab;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
 }
 .add:hover {
-    background-color: #215b25;
+    background-color: #987b25;
     color: #fff;
     transform: translate(0, 2px);
 }

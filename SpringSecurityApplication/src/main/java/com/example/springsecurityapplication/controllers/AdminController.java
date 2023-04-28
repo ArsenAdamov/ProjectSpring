@@ -202,7 +202,7 @@ public class AdminController {
     @GetMapping("/admin/persons")
     public String personUser(Model model){
         model.addAttribute("persons", personService.getAllPerson());
-        System.out.println(personService.getPersonId(1).getId()+" Привет");
+        System.out.println(personService.getPersonId(1).getId());
         return "/persons";
     }
 

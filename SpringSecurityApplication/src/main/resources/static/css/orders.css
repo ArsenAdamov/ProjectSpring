@@ -51,7 +51,7 @@ h3{
 .button input{
     width: 15em;
     color: white;
-    background-color: #4cac50;
+    background-color: #18d7ab;
     border-radius: 10px;
     box-shadow: 0 0 2px rgb(0 0 0 / 30%);
     cursor: pointer;
@@ -60,5 +60,5 @@ h3{
 }
 .button input:hover{
     transform: translate(0, 2px);
-    background-color: #215b25;
+    background-color: #987b25;
 }

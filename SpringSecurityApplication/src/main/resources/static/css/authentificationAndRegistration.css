@@ -36,12 +36,12 @@ input[type="submit"] {
     font-size: 16px;
 }
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #18d7ab;
     color: #FFF;
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #987b25;
     transform: translate(0, 2px);
 }
 .error-message {
@@ -53,12 +53,12 @@ a {
     display: block;
     text-align: center;
     margin-top: 20px;
-    color: #4CAF50;
+    color: #18d7ab;
     text-decoration: none;
 }
 .link:hover{
     text-decoration: none;
-    color: #27672a;
+    color: #987b25;
 }
 
 
@@ -69,12 +69,12 @@ a {
   }
 .product-button {
     padding: 5px;
-    background-color: #4cae50;
+    background-color: #18d7ab;
     color: white;
     font-weight: bold;
     border-radius: 5px;
 }
 .product-button:hover{
-    background-color: #27672a;
+    background-color: #987b25;
     transform: translate(0, 2px);
 }

@@ -34,11 +34,11 @@ hr {
     cursor: pointer;
     margin: 1em 3em 0 3em;
     border: 1px solid #0000004d;
-    background: #459a48;
+    background: #18d7ab;
     color: white;
 }
 .button input:hover{
-    background: #215b25;
+    background: #987b25;
     transform: translate(0, 2px);
 }
 h1{
@@ -47,13 +47,13 @@ h1{
 .add{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4cac50;
+    background-color: #18d7ab;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
 }
 .add:hover {
-    background-color: #215b25;
+    background-color: #987b25;
     color: #fff;
     transform: translate(0, 2px);
 }

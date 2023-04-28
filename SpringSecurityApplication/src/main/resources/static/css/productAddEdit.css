@@ -51,7 +51,7 @@ form textarea#description {
 }
 form input#edit[type="submit"],
 form input#ADD[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #18d7ab;
     color: white;
     border: none;
     border-radius: 10px;
@@ -61,7 +61,7 @@ form input#ADD[type="submit"] {
 }
 form input#edit[type="submit"]:hover,
 form input#ADD[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #18d7ab;
     transform: translate(0, 2px);
 }
 .button{
@@ -70,17 +70,17 @@ form input#ADD[type="submit"]:hover {
 }
 .button input{
     width: 19em;
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 10px;
     box-shadow: 0 0 2px rgb(0 0 0 / 30%);
     cursor: pointer;
     margin: 1em 3em 0 3em;
     border: 1px solid #0000004d;
-    background: #459a48;
+    background: #18d7ab;
     color: white;
     padding: 1px;
 }
 .button input:hover{
-    background: #215b25;
+    background: #987b25;
     transform: translate(0, 2px);
 }

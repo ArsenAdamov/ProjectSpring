@@ -23,6 +23,7 @@
     </form>
 </div>
 <hr>
+<h1>Список товаров</h1>
 <div class="container" th:each="product : ${products}">
     <div class="IMAGE">
         <img th:src="'/img/' +${product.imageList[0].getFileName()}">

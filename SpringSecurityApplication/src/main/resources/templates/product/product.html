@@ -6,7 +6,7 @@
     <link th:href="@{/css/product.css}" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h3> Сортировка, поиск, фильтрация </h3>
+<br>
 <div class="button">
     <form method="get" th:action="@{/authentication}">
         <input type="submit" value="Войти в аккаунт"/>
@@ -15,6 +15,8 @@
         <input type="submit" value="Регистриция"/>
     </form>
 </div>
+<hr>
+<h3> Сортировка, поиск, фильтрация </h3>
 <form th:method="POST" th:action="@{/product/search}">
     <fieldset>
         <legend>Выберите параметр для сортировки, поиска, фильтрации:</legend>
